@@ -1,5 +1,5 @@
 " author : jeysym
-" date   : 18.12.2017
+" date   : 11.10.2018
 
 " my colorscheme for CLI vim
 colorscheme pablo
@@ -43,3 +43,10 @@ syntax on
 set incsearch
 " do not show pattern after searching
 set nohlsearch
+
+" set better encryption method
+set cm=blowfish2
+
+" set some abbreviations for convenience
+abbrev __name Jan Brýda
+abbrev __mail bryda.jan@gmail.com
